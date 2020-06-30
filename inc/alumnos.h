@@ -16,7 +16,7 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-
+bool SergioAlberino(char * cadena, size_t espacio);
 /*=====[C++ - begin]=========================================================*/
 
 #ifdef __cplusplus
@@ -40,6 +40,8 @@ typedef struct alumno_s {
 /*=====[Prototypes (declarations) of public functions]=======================*/
 
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
+
+bool EstebanVolentini(char * cadena, size_t espacio);
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
